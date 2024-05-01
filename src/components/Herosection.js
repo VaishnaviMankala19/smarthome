@@ -10,7 +10,7 @@ const HeroSection = () => {
           src='https://my.spline.design/threadsfeatureheaderanimation-dada77e857d4f710ba7fff1b8d4defb7/'
           frameborder='0'
           width='100%'
-          height='100%'
+          height='100px'
         ></iframe>
       </div>
       <div className="left">
@@ -25,14 +25,14 @@ const HeroSection = () => {
           <img className='image' src={herosectionimg} alt="Hero Section Image" />
           <div className="glass-card">
             <div className="card-content">
-              <p className='para'> <span class="material-symbols-outlined trans">dew_point</span> Air Conditioner</p>
+              {/* <p className='para'> <span class="material-symbols-outlined trans">dew_point</span> Air Conditioner</p> */}
               <p className='para'>Turned on <button className="turnoff-button">Turn Off</button></p>
               
               <div className="icon-row">
-              <span className="material-symbols-outlined">ac_unit</span>
-              <span className="material-symbols-outlined">partly_cloudy_day</span>
-              <span className="material-symbols-outlined">thermometer_loss</span>
-              <span className="material-symbols-outlined">thermometer_gain</span>
+              <div className="material-symbols-outlined">ac_unit</div><div style={{ fontSize: '12px', backgroundColor: 'transparent', paddingLeft:'1px' , position:'relative',top:'5px',left:'0px',margin:'0px',paddingRight:'6px'}}>27</div>
+              <div className="material-symbols-outlined">partly_cloudy_day</div><div style={{ fontSize: '12px', backgroundColor: 'transparent', paddingLeft:'1px' , position:'relative',top:'5px',left:'0px',margin:'0px',paddingRight:'6px'}}>21</div>
+              <div className="material-symbols-outlined">thermometer_loss</div><div style={{ fontSize: '12px', backgroundColor: 'transparent', paddingLeft:'1px' , position:'relative',top:'5px',left:'0px',margin:'0px',paddingRight:'6px'}}>19</div>
+              <div className="material-symbols-outlined">thermometer_gain</div><div style={{ fontSize: '12px', backgroundColor: 'transparent', paddingLeft:'1px' , position:'relative',top:'5px',left:'0px',margin:'0px',paddingRight:'6px'}}>17</div>
               </div>
               <p className='smallpara'>Weather outside seems to be cool</p>
               <button className="transparent-button">Automatic Mode</button>
@@ -40,7 +40,7 @@ const HeroSection = () => {
           </div>
           <div className="glass-card1">
             <div className="card-content1">
-              <p className='para1'> <span class="material-symbols-outlined">music_note</span> A Thousand Years...<p className='smallpara1'>playing</p><button className="turnoff-button">Turn Off</button></p>
+              <p className='para1'> <span class="material-symbols-outlined">music_note</span> A Thousand Years...<p className='smallpara1'>Playing</p><button className="turnoff-button">Turn Off</button></p>
             </div>
           </div>
           <div className="glass-card2">

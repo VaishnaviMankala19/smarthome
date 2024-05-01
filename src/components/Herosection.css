@@ -4,7 +4,6 @@
   align-items: center;
   padding: 20px;
   margin: 20px;
-  
   position: relative;
 }
 
@@ -23,26 +22,27 @@
   font-family: 'Inter', sans-serif;
   outline: none;
   border: 1px solid;
-  border-radius: 10px;
   padding: 10px 69px;
   font-size: 16px;
   color: rgb(223, 216, 216);
   cursor: pointer;
-  border-image: linear-gradient(to right, #F8DEC5, #9C5706);
+  border-image: linear-gradient(to right, #F8DEC5, #000000);
   border-image-slice: 1;
   margin-bottom: 10px;
   background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
 }
 
 .big-text {
-  font-family: "Nosifer", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 59px;
   color: white;
   background-color: transparent;
 }
 
 .extra {
-  font-family: "Nosifer", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 59px;
   color: transparent; /* Set text color to transparent */
   background-image: linear-gradient(to right, #F8DEC5, #CDAF94);
@@ -69,6 +69,7 @@
   cursor: pointer;
   margin-top: 20px;
   border-radius: 25px;
+  font-family: 'Inter', sans-serif;
 }
 
 .image-container {
@@ -89,7 +90,7 @@
 .glass-card {
   position: absolute;
   width: calc(100% - 40px);
-  max-width: 173px;
+  max-width: 192px;
   height: auto;
   max-height: 186px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -130,7 +131,7 @@
 
 .icon-row {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 100%;
   background-color: transparent;
   margin-bottom: 5px;

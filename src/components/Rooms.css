@@ -1,7 +1,294 @@
 .rooms{
     color:white;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 20px;
+    margin-left: 520px;
     font-family: "Nosifer", sans-serif;
+    position: absolute;
+}
+.rooms h1{
+  font-size: 34px;
+  position: relative;
+  left:230px;
+  top:160px;
+}
+.robot{
+    position: relative;
+    top:100px;
+    left:300px;
+}
+.livingroom{
+    width:917px;
+    height:501px;
+    position: absolute;
+    top:1000px;
+    left:250px;
+}
+.livingroom img{
+    width:917px;
+    height:501px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+.text-on-image{
+    position: relative;
+    left:620px;
+    top:100px;
+    color: white;
+    background-color: transparent;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+}
 
+.rglass-card {
+    position: absolute;
+    width: calc(100% - 40px);
+    max-width: 173px;
+    height: auto;
+    max-height: 186px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    left: 310px;
+    top: 1100px;
+    transform: translateY(-50%);
+    padding: 10px;
+  }
+  
+  .rcard-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    color:white;
+    padding-right:10px;
+  }
+  
+  .ricon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .rturnoff-button {
+    width: 52px;
+    height: 13px;
+    background-color: #FF7900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 7px;
+  }
+  
+  .ricon-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 5px;
+  }
+  
+  .rtransparent-button {
+    width: 82px;
+    height: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 9px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .rpara{
+    background-color: transparent;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    margin: 2px;
+  }
+  .rsmallpara{
+    background-color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 9px;
+  }
+  .rtrans{
+    background-color: transparent;
+    position: relative;
+    top:9px;
+  }
+  .material-symbols-outlined r{
+    background-color: transparent;
+  }
+  .rglass-card1 {
+    position: absolute;
+    width: calc(100% - 10px);
+    max-width: 230px;
+    height: auto;
+    max-height: 90px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    left: 1000px;
+    top: 1000px;
+    transform: translateY(-50%);
+    padding: 5px;
+  }
+  
+  .rglass-card1 .material-symbols-outlined{
+    position: relative;
+    top:10px;
+  }
+  .rcard-content1 {
+    padding: 10px;
+    background-color: transparent;
+  }
+  
+.rcard-content1 p {
+    margin: 0;
+    background-color: transparent;
+  }
+  
+.rglass-card1 .turnoff-button {
+    margin-top: 1px;
+    background-color: transparent;
+    width: 52px;
+    height: 13px;
+    background-color: #FF7900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 7px;
+    text-align: center;
+    position: relative;
+    left:15px;
+  }
+  
+.rsmallpara1 {
+    font-size: 10px;
+    background-color: transparent;
+    color:white;
+    position: relative;
+    left:28px;
+    top:1px;
+  }
+  
+.rpara1 {
+    background-color: transparent;
+    color:white;
+  }
+  
+.rtrans {
+    margin-right: 1px;
+    background-color: transparent;
+  }
+  
+.rglass-card2 {
+  position: relative;
+  width: calc(100% - 10px);
+  max-width: 200px;
+  height: auto;
+  max-height: 90px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  top:20px;
+  padding: 5px;
+}
+.rglass-card2 .material-symbols-outlined{
+  position: relative;
+  top:12px;
+  color:#FFA800
+}
+.rglass-card2 .turnoff-button {
+  margin-top: 1px;
+  width: 52px;
+  height: 13px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 7px;
+  text-align: center;
+  position: relative;
+  left:15px;
+  border: 1px solid white;
+}
+.card2{
+  position: relative;
+  width: calc(100% - 10px);
+  max-width: 150px;
+  height: auto;
+  max-height: 90px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  top:40px;
+  left:300px;
+  padding: 10px;
+  color:white;
+  margin: 10px;
+}
+.para5{
+  font-size: 10px;
+  font-family: 'Inter', sans-serif;
+  background-color: transparent;
+}
+.para6{
+    font-size: 10px;
+    font-family: 'Inter';
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.46);
+
+}
+#toggle{
+    color:#D28A57;
+    position: relative;
+    left:100px;
+    bottom:30px;
+}
+
+.circularcard {
+    width: 165px;
+    height: 165px;
+    border-radius: 50%; /* Ensures the card is circular */
+    background: rgba(255, 255, 255, 0.15); /* Transparent white background */
+    backdrop-filter: blur(10px); /* Adds a blur effect to the background */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Adds shadow for depth */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:1100px;
+    top:130px;
+    color: white;
+    margin:3px;
+  }
+  
+  .content {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0 , 0);
+    opacity: 0.5;
+    padding:3px;
+  }
+  .material-symbols-outlined rtrans{
+    position: relative;
+    left: 10px;
+  }
+.oo{
+  background-color: transparent;
+  font-size: 23px;
+  font-family: 'Inter';
+  font-weight: 100px;
 }

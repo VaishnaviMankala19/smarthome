@@ -1,15 +1,20 @@
 import React from 'react';
-import Navbar from './components/Navbar.js';
-import Herosection from './components/Herosection.js';
-import Rooms from './components/Rooms.js';
+import Home from './components/Home';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Rooms from './components/Rooms';
+import Full from './components/Full.js';
+
 
 export default function App() {
   return (
     <>
-    <Navbar/>
-    <Herosection/>
-    <Rooms/>
+      <BrowserRouter> 
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/Full' element={<Full/>}></Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
