@@ -2,7 +2,7 @@ import HeroSection from "./Herosection";
 import Navbar from "./Navbar";
 import Rooms from "./Rooms";
 import Fav from './Fav';
-
+import Add from './Add'
 import { Navigate, useNavigate } from "react-router-dom";
 
 export default function Home(){
@@ -17,6 +17,7 @@ export default function Home(){
         <div onClick={RoomPage}>
         <Rooms/>
         <Fav />
+        <Add />
         </div>
         </>
     )
